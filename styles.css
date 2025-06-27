@@ -170,7 +170,7 @@ nav {
     transform: all 300ms; 
 }
 
-.language__img:hover {
+.language:hover .language__img {
     filter: brightness(80%);
     opacity: 0.86;
     transform: scale(0.9);
@@ -181,8 +181,8 @@ nav {
     display: flex;
     justify-content: center;
     position: relative;
-
 }
+
 .language__img--wrapper {
     display: flex;
     justify-content: center;
@@ -200,4 +200,12 @@ nav {
     position: absolute;
     bottom: 0;
     transform: scale(0);
+    transform: all 300ms;
+    font-size: 20px;
+    opacity: 0;
+}
+
+.language:hover .language__name {
+    transform: scale(1);
+    opacity: 1;
 }
