@@ -161,3 +161,17 @@ nav {
 .about-me__img {
     width: 100%;
 }
+
+/* TECH - STACK */
+
+.language__img {
+    width: 100%;
+    max-width: 100px;
+}
+
+.language__img--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
